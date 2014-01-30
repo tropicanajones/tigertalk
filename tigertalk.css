@@ -1,24 +1,33 @@
- body {
+body {
 	text-align: right;
 	background: url("img/bengal-tiger2.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: black;
+	background-attachment: fixed;
+	color: black;
 	text-shadow: 5px 5px 5px white;
 	font-family: Helvetica;
+}
+
+p {
+	font-size: 24px;
+}
+
+input {
+	border: 0;
+	padding: 12px;
+	font-size: 18px;
+}
+
+	input[type="submit"] {
+		background: red;
+		color: black;
 	}
-	p{
-		font-size: 24px;
-	}
-	input{
-	    border:0;
-		padding: 12px;
-		font-size: 18px;		
-		}
-		input[type="submit"]{
-			    background: red;
-			    color: black;
-			}	
+
+.yelling {
+	font-size: 224px;
+	text-shadow: 12px 12px 12px white;
+	color: red;
+}
